@@ -2,6 +2,7 @@
 set nocompatible
 set scrolloff=5
 set ruler
+set number
 
 filetype off
 set rtp+=~/.vim/bundle/vundle/ 
@@ -9,6 +10,8 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree'
+Bundle 'cakebaker/scss-syntax.vim.git'
+Bundle 'vim-scripts/mru.vim.git'
 Bundle 'vim-scripts/php.vim-for-php5'
 
 filetype plugin indent on
