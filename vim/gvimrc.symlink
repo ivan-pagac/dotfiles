@@ -1,0 +1,10 @@
+
+set gcr=n:blinkon0
+set hls is ic scs
+
+nmap <silent> <C-n> :noh<CR>
+
+set sw=4 sts=4 et
+set go-=T
+set lines=60
+
