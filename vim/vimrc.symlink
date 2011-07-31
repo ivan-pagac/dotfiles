@@ -3,11 +3,17 @@ set nocompatible
 set scrolloff=5
 set ruler
 
-syntax on
-filetype on
-filetype plugin on
-filetype indent on
+filetype off
+set rtp+=~/.vim/bundle/vundle/ 
+call vundle#rc()
 
+Bundle 'gmarik/vundle'
+Bundle 'scrooloose/nerdtree'
+Bundle 'vim-scripts/php.vim-for-php5'
+
+filetype plugin indent on
+
+syntax on
 set hlsearch
 set incsearch
 set visualbell
