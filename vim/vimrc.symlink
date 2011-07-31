@@ -1,0 +1,16 @@
+
+set nocompatible
+set scrolloff=5
+set ruler
+
+syntax on
+filetype on
+filetype plugin on
+filetype indent on
+
+set hlsearch
+set incsearch
+set visualbell
+
+set wildmode=list:longest,full
+
